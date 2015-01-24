@@ -1,0 +1,105 @@
+This file shows the variables used in the final set. More detailed description can be found in the original data, as file "features_info.txt"
+
+ID variables:
+Subject - from 1 to 30, describes person measured
+Activity - six different levels: 
+1 WALKING
+
+2 WALKING_UPSTAIRS
+
+3 WALKING_DOWNSTAIRS
+
+4 SITTING
+
+5 STANDING
+
+6 LAYING
+
+
+Measured variables:
+	Time domain signal variables (start with Time)
+		Signals from body acceleratometer:
+Time_BodyAccel-mean-X
+Time_BodyAccel-mean-Y
+Time_BodyAccel-mean-Z
+Time_BodyAccel-std-X
+Time_BodyAccel-std-Y
+Time_BodyAccel-std-Z
+		Gravity acceleration measures:
+Time_GravityAccel-mean-X
+Time_GravityAccel-mean-Y
+Time_GravityAccel-mean-Z
+Time_GravityAccel-std-X
+Time_GravityAccel-std-Y
+Time_GravityAccel-std-Z
+		Body acceleratometer jerk
+Time_BodyAccelJerk-mean-X
+Time_BodyAccelJerk-mean-Y
+Time_BodyAccelJerk-mean-Z
+Time_BodyAccelJerk-std-X
+Time_BodyAccelJerk-std-Y
+Time_BodyAccelJerk-std-Z
+		Data from body gyroscope
+Time_BodyGyro-mean-X
+Time_BodyGyro-mean-Y
+Time_BodyGyro-mean-Z
+Time_BodyGyro-std-X
+Time_BodyGyro-std-Y
+Time_BodyGyro-std-Z
+		Body gyroscope jerk
+Time_BodyGyroJerk-mean-X
+Time_BodyGyroJerk-mean-Y
+Time_BodyGyroJerk-mean-Z
+Time_BodyGyroJerk-std-X
+Time_BodyGyroJerk-std-Y
+Time_BodyGyroJerk-std-Z
+		Magnitude of body acceleration
+Time_BodyAccelMagnitude-mean
+Time_BodyAccelMagnitude-std
+		Magnitude of gravity acceleration
+Time_GravityAccelMagnitude-mean
+Time_GravityAccelMagnitude-std
+		Magnitude of body acceleration jerk
+Time_BodyAccelJerkMagnitude-mean
+Time_BodyAccelJerkMagnitude-std
+		Magnitude of body gyroscope
+Time_BodyGyroMagnitude-mean
+Time_BodyGyroMagnitude-std
+		Magnitude of body gyroscope jerk
+Time_BodyGyroJerkMagnitude-mean
+Time_BodyGyroJerkMagnitude-std
+
+	Data in frequency domain (transformed by FT)
+		Body acceleratometer data
+Freq_BodyAccel-mean-X
+Freq_BodyAccel-mean-Y
+Freq_BodyAccel-mean-Z
+Freq_BodyAccel-std-X
+Freq_BodyAccel-std-Y
+Freq_BodyAccel-std-Z
+		Body acceleratometer jerk data
+Freq_BodyAccelJerk-mean-X
+Freq_BodyAccelJerk-mean-Y
+Freq_BodyAccelJerk-mean-Z
+Freq_BodyAccelJerk-std-X
+Freq_BodyAccelJerk-std-Y
+Freq_BodyAccelJerk-std-Z
+		Body gyroscope data
+Freq_BodyGyro-mean-X
+Freq_BodyGyro-mean-Y
+Freq_BodyGyro-mean-Z
+Freq_BodyGyro-std-X
+Freq_BodyGyro-std-Y
+Freq_BodyGyro-std-Z
+		Body acceleratometer magnitude
+Freq_BodyAccelMagnitude-mean
+Freq_BodyAccelMagnitude-std
+		Body acceleratometer jerk magnitude
+Freq_BodyAccelJerkMagnitude-mean
+Freq_BodyAccelJerkMagnitude-std
+		Body gyroscope magnitude
+Freq_BodyGyroMagnitude-mean
+Freq_BodyGyroMagnitude-std
+		Body gyroscope jerk magnitude
+Freq_BodyGyroJerkMagnitude-mean
+Freq_BodyGyroJerkMagnitude-std
